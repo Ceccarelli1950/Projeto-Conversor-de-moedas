@@ -131,8 +131,11 @@ select:hover {
     cursor: cell;
 }
 
-@media screen {
+@media (max-width: 600px){
     #imagem-logo {
         margin: auto;
+    }
+    section {
+    width: 380px;
     }
 }
