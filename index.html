@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="./arquivo.js" defer></script>
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+    <main>
+        <img id="imagem-logo" src="./images/logo 1.png" alt="logo-do-conversor">
+    </main>
+    <section>
+        <div class="ola">
+            <div class="divu">
+                <label class="label">Converter <strong>De</strong></label>
+                <select class="selects">
+                    <option>R$ Real Brasileiro</option>
+                </select>
+            </div>
+            <label class="label">Converter <strong>Para</strong></label>
+            <select class="selects" id="select">
+                <option value="moeda">US$ Dólar Americano</option>
+                <option value="money">Euro</option>
+                <option value="libras">Libra</option>
+                <option value="bitcoins">Bitcoin</option>
+            </select>
+            <label class="label"> <strong>Valor</strong></label>
+            <input placeholder=" R$ 0,00" type="number" class="input">
+            <button class="button">Converter</button>
+            <div class="div-baixo">
+                <div>
+                    <div>
+                        <img class="bandeiras" src="./images/brasil 2.png" alt="logo-do-brasil">
+                        <figcaption class="fig">Real</figcaption>
+                        <p class="Resulta"> <strong> R$ 0,00</strong></p>
+                    </div>
+                    <img id="imagem-seta" src="./images/seta.png" alt="seta">
+                    <div>
+                        <img class="bandeiras" id="imges" src="./images/estados-unidos (1) 1.png"
+                            alt="logo-dos-estados-unidos">
+                        <figcaption class="fig" id="flags">Dólar</figcaption>
+                        <p class="Resultados"> <strong> US$ 0,00</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
