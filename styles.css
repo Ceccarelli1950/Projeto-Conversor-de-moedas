@@ -130,3 +130,9 @@ button:active {
 select:hover {
     cursor: cell;
 }
+
+@media screen {
+    #imagem-logo {
+        margin: auto;
+    }
+}
