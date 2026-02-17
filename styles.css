@@ -51,7 +51,6 @@ select {
     font-size: 16px;
     line-height: 18px;
     color: #555555;
-    text-align: calc(10px);
     padding: 10px;
     appearance: none;
     cursor: context-menu;
@@ -72,7 +71,7 @@ input {
     padding: 10px;
     appearance: none;
     color: #3C3C3C;
-
+    padding: 10px;
 }
 
 button {
